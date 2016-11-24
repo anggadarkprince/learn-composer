@@ -1,0 +1,20 @@
+{
+    "name": "sketchproject/orion",
+    "description": "Simple note app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angga Ari Wijaya",
+            "email": "anggadarkprince@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Orion\\": "app/"
+        }
+    },
+    "require": {
+    	"monolog/monolog": "1.0.*",
+        "fzaninotto/faker": "^1.6"
+    }
+}
